@@ -1,0 +1,119 @@
+.Stype {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    clear: both;
+    
+}
+
+.Stype img {
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.Stype p {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.Stype h4 {
+    margin: 10px 0;
+    padding: 0 10px;
+    color: white;
+}
+
+
+.Stype ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.Stype ul li{
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 27%;
+    transition: 300ms;
+    vertical-align: top;
+   }
+
+.Stype div {
+    padding: 10px; 
+    box-sizing: border-box;
+    height: 200px;
+    position: relative;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #e31850;
+    cursor: pointer;
+} 
+
+.Stype a{
+    
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.Stype h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
+
+.Stype ul li:hover {
+    scale: 1.01;
+}
+
+.Stype h4 {
+    text-align: center;
+    color: #ffffff;
+}
+.Stype h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+@media (max-width: 900px) {
+    
+    .Stype ul li{
+        
+        width: 40%;
+        transition: 300ms;
+        vertical-align: top;
+       }
+  }
+
+  
+
+  @media (max-width: 620px) {
+    
+    .Stype ul li{
+        width: 80%;
+        transition: 300ms;
+        vertical-align: top;
+       }
+
+       
+  }
+
+.date {
+    font-size: 14px;
+    margin: 0
+}

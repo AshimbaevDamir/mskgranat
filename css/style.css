@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    width:100%; height:100%; 
+    overflow-x:hidden;
+    position: relative;
+}
+
+#logo {
+    width: 100px;
+    margin: 20px 30px;
+    float: left;
+}
+
+#headpart {
+    display: flex;
+    background-color: #e31850;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+.shortinfo {
+    float: right;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.shortinfo p {
+    margin-top: 20px;
+    padding: 7px;
+    
+}
+
+.Title1 {
+    text-align: center;
+   
+    z-index: 99999;
+}
+
+.Title1 h4{
+    font-size: 70px;
+    text-align: center;
+}
+
+.Title1 h5{
+    animation: ani2 1.5s ease-in;
+}
+
+#par1 {
+    margin: 60px 0px 0px 0px;
+}
+#par2 {
+    margin: 0px 0px 30px 0px;
+    background-color:#e31850;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: white;
+    rotate: -2deg;
+    transform: translateY(200%);
+    animation: ani 1s forwards, ani2 1s ease-in-out;
+}
+@keyframes ani {
+    0% {transform: translateY(200%);}
+    100% {transform: translateY(0);}
+  }
+  @keyframes ani2 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+  .CompaniInfo {
+    width: 100%;
+
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.CompaniInfo td{
+    width: 100%;
+    
+    text-align: center;
+}
+
+.CompaniInfo img{
+    height: 50px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: white;
+    margin-top: -100px;
+    border-radius: 5px;
+}
+
+.CompaniInfo h3{
+    color: white;
+    padding: 40px 60px 80px 60px;
+    background-color: #e31850;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+.contact {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+
+
+.bottominfo {
+    width: 100%;
+    height: 80px;
+    background-color: #e31850;
+    text-align: center;
+    
+    padding: 50px;
+}
+
+
+.bottominfo p {
+    color: white;
+    font-size: 10px;
+}
+
+
+
+.bottominfo table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logogr {
+    width: 200px;
+}

@@ -1,0 +1,54 @@
+.navigate {
+    position: relative;
+    height: 40px;
+    width: 60%;
+    clear: both;
+    margin-right: 0;
+    margin-top: 20px;
+    float: left;
+    
+}
+.navigate ul {
+    width: 100%;
+    padding: 7px 0 7px 15px;
+    
+}
+
+.navigate ul li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.navigate ul li:last-child{
+    margin-right: 0px;
+}
+
+.navigate span{
+    text-decoration: none;
+    color: white;
+     box-sizing: border-box;
+     position: relative;
+     cursor: pointer;
+}
+
+
+
+
+
+.navigate span::after { 
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: #ffffff;
+    width: 0;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+    z-index: 1000;
+  }
+  
+ 
+  .navigate span:hover::after { width: 100%; }
+
